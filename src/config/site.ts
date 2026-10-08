@@ -156,21 +156,21 @@ export const siteConfig: SiteConfig = {
   favicon: "/favicon.svg", // Place your favicon in public/favicon.svg or public/favicon.ico
   defaultOgImage: "/images/og-default.png",
 
-  // ----------------------------------------------------------------------------
+  // ----------------------------------------------------------------------------x
   // 2. AUTHOR PROFILE (SINGLE AUTHOR FOR ENTIRE SITE)
   // ----------------------------------------------------------------------------
   author: {
-    name: "Alex Morgan",
+    name: "Lucas McKay",
     role: "Software Engineer & Creative Developer",
     avatar: "/images/avatar.jpg", // Place your photo in public/images/avatar.jpg
     bio: "Frontend engineer and creative developer fascinated by the craft of building blazingly fast web apps, liquid glass design systems, and resilient software architectures.",
-    location: "San Francisco, CA",
-    status: "Building the future of spatial web interfaces",
+    location: "Santa Barbara CA",
+    status: "Building the future web and buisness one keystroke at a time",
     social: {
-      github: "https://github.com/nivinvysakh/devlog-astro-template",
+      github: "https://github.com/shredthaGNAR",
       twitter: "https://twitter.com",
       linkedin: "https://linkedin.com",
-      email: "alex@example.com",
+      email: "lucas@lucasmckay.xyz",
     },
   },
 
@@ -178,10 +178,10 @@ export const siteConfig: SiteConfig = {
   // 3. HOME HERO SECTION
   // ----------------------------------------------------------------------------
   hero: {
-    greeting: "Hey, I'm Alex",
-    badge: "Software Engineer • Creative Developer",
+    greeting: "Hey, I'm Lucas",
+    badge: "Software Engineer • Creative Developer • Online Business Consultant",
     tagline:
-      "Welcome to my personal dev blog and digital notebook. I write about building fast web apps with Astro, mastering strict TypeScript, and crafting tactile Liquid Glass UI.",
+      "Welcome to my personal developer blog and digital notebook. I write about what I am working on and past projecta, in addition to helping people and their going converns aka businesses improve through usage of combinging the indosincratic as well as the practical and locgical. Usually you can find me building fast web apps/websites with Astro, utilizing TypeScript, and crafting tactile Liquid Glass UI, among a vast vartiety of other types of totally different projects.",
     primaryButton: {
       text: "Read My Articles",
       href: "/blog",
@@ -259,12 +259,12 @@ export const siteConfig: SiteConfig = {
   // ----------------------------------------------------------------------------
   newsletter: {
     badge: "Personal Dev Notes",
-    title: "Follow My Engineering Journey & Experiments",
+    title: "Follow My Journey & Experiments",
     description:
-      "Occasional writeups on frontend architecture, liquid glass UI craft, Astro experiments, and lessons learned building software.",
-    placeholder: "you@domain.com",
-    buttonText: "Get Updates",
-    successMessage: "Thanks for subscribing to my dev notes!",
+      "Occasional writeups on frontend architecture, liquid glass UI craft, Astro experiments, and lessons learned building software including firefox addons and Visual Design.",
+    placeholder: "lucas@lucasmckay.xyz",
+    buttonText: "Get Updates or Contact Me",
+    successMessage: "Thanks for subscribing to my dev notes-You will hear from me shortly thanks!!",
   },
 
   // ----------------------------------------------------------------------------
@@ -308,9 +308,9 @@ export const siteConfig: SiteConfig = {
   // ----------------------------------------------------------------------------
   footer: {
     tagline: "Crafted with Astro 7, TypeScript, and Liquid Glass aesthetics.",
-    copyright: "Alex Morgan",
+    copyright: "Lucas McKay",
     brandDescription:
-      "Personal blog & digital notebook template. Writing about high-performance web development, TypeScript architecture, and creative UI engineering.",
+      "Personal blog & digital notebook. Writing about high-performance web development, TypeScript architecture, and creative UI engineering....for a start.",
   },
 };
 
