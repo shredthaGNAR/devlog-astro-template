@@ -152,11 +152,11 @@ export const siteConfig: SiteConfig = {
   title: "DEV.LOG — Personal Dev Blog & Digital Garden",
   description:
     "A high-performance personal developer blog and digital notebook crafted with Astro, strict TypeScript, and Liquid Glass UI.",
-  url: "https://devlog.example.com",
+  url: "https://devlog.example.com", // TODO: replace with your real domain (e.g., "https://lucasmckay.xyz")
   favicon: "/favicon.svg", // Place your favicon in public/favicon.svg or public/favicon.ico
   defaultOgImage: "/images/og-default.png",
 
-  // ----------------------------------------------------------------------------x
+  // ----------------------------------------------------------------------------
   // 2. AUTHOR PROFILE (SINGLE AUTHOR FOR ENTIRE SITE)
   // ----------------------------------------------------------------------------
   author: {
@@ -164,12 +164,12 @@ export const siteConfig: SiteConfig = {
     role: "Software Engineer & Creative Developer",
     avatar: "/images/avatar.jpg", // Place your photo in public/images/avatar.jpg
     bio: "Frontend engineer and creative developer fascinated by the craft of building blazingly fast web apps, liquid glass design systems, and resilient software architectures.",
-    location: "Santa Barbara CA",
-    status: "Building the future web and buisness one keystroke at a time",
+    location: "Santa Barbara, CA",
+    status: "Building the future of the web and business, one keystroke at a time",
     social: {
       github: "https://github.com/shredthaGNAR",
-      twitter: "https://twitter.com",
-      linkedin: "https://linkedin.com",
+      twitter: "https://twitter.com", // TODO: add your profile handle or remove this line
+      linkedin: "https://linkedin.com", // TODO: add your profile URL or remove this line
       email: "lucas@lucasmckay.xyz",
     },
   },
@@ -181,7 +181,7 @@ export const siteConfig: SiteConfig = {
     greeting: "Hey, I'm Lucas",
     badge: "Software Engineer • Creative Developer • Online Business Consultant",
     tagline:
-      "Welcome to my personal developer blog and digital notebook. I write about what I am working on and past projecta, in addition to helping people and their going converns aka businesses improve through usage of combinging the indosincratic as well as the practical and locgical. Usually you can find me building fast web apps/websites with Astro, utilizing TypeScript, and crafting tactile Liquid Glass UI, among a vast vartiety of other types of totally different projects.",
+      "Welcome to my developer blog and digital notebook, where I write about what I'm building now and projects from the past. I also help people and their businesses improve by blending the idiosyncratic with the practical and logical. You'll usually find me building fast web apps and websites with Astro and TypeScript, crafting tactile Liquid Glass UI, and tackling a wide variety of other projects.",
     primaryButton: {
       text: "Read My Articles",
       href: "/blog",
@@ -261,10 +261,10 @@ export const siteConfig: SiteConfig = {
     badge: "Personal Dev Notes",
     title: "Follow My Journey & Experiments",
     description:
-      "Occasional writeups on frontend architecture, liquid glass UI craft, Astro experiments, and lessons learned building software including firefox addons and Visual Design.",
-    placeholder: "lucas@lucasmckay.xyz",
+      "Occasional write-ups on frontend architecture, Liquid Glass UI craft, Astro experiments, visual design, and lessons learned building software, including Firefox add-ons.",
+    placeholder: "you@example.com",
     buttonText: "Get Updates or Contact Me",
-    successMessage: "Thanks for subscribing to my dev notes-You will hear from me shortly thanks!!",
+    successMessage: "Thanks for subscribing to my dev notes! You'll hear from me shortly.",
   },
 
   // ----------------------------------------------------------------------------
@@ -310,7 +310,7 @@ export const siteConfig: SiteConfig = {
     tagline: "Crafted with Astro 7, TypeScript, and Liquid Glass aesthetics.",
     copyright: "Lucas McKay",
     brandDescription:
-      "Personal blog & digital notebook. Writing about high-performance web development, TypeScript architecture, and creative UI engineering....for a start.",
+      "Personal blog and digital notebook. Writing about high-performance web development, TypeScript architecture, and creative UI engineering—for a start.",
   },
 };
 
